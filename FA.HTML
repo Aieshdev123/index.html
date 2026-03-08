@@ -1,0 +1,38 @@
+<html>
+<head>
+   
+
+    <script> 
+        function BulbOn(){
+            document.getElementById("bulb").innerHTML = "BULB is ON";
+            window.alert("bulb on ho giya ha");
+            console.log("yeh consol output hay");
+        }
+    </script>
+     <script>
+        function Bulboff(){
+            document.getElementById("bulb").innerHTML = "Bulb is Off";
+        }
+       
+        
+    </script>
+     
+
+</head>
+   <body>
+       <h2> JavaScript Example bulb</h2>
+       
+         <p id="bulb"> BULB IS OFF</p>
+
+         <button onclick="BulbOn()">Turn Bulb On</button>
+         <button onclick= "Bulboff()">Turn Bulb Off</button>
+
+        <p id="date">date goes here</p>
+        <h1><button onclick="document.getElementById('date').innerHTML = Date()">the time is?</button></h1>
+          <button onclick="this.innerHTML = Date()">date here</button>
+
+          <h1> <a href="#" onclick="this.innerHTML = '10 Muharram woh din hai jab Haq o Sabar ki misaal Karbala mein likhi gayi . jahan paani se zyada izzat aur deen ki hifazat zaroori samjhi gayi.'" >Click Me</a>
+         </h1>
+    </body>
+   
+</html

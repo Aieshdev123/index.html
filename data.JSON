@@ -1,0 +1,15 @@
+{
+  "services": [
+    "Web Design",
+    "Graphic Design",
+    "SEO Optimization"
+  ],
+  "portfolio": [
+    { "title": "Project 1", "description": "Amazing project 1" },
+    { "title": "Project 2", "description": "Amazing project 2" }
+  ],
+  "pricing": [
+    { "plan": "Basic", "price": "$50" },
+    { "plan": "Premium", "price": "$100" }
+  ]
+}
